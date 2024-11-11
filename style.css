@@ -135,9 +135,8 @@ input, select, textarea {
     flex: 2;
 }
 
-/* ID, class, and attribute selectors */
 #newsletter-signup {
-    background-color: #e7e7e7;
+    background-color: #accaff;
     padding: 15px;
     border-radius: 5px;
 }
