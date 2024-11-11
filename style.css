@@ -1,1 +1,140 @@
+/* General styling for all pages */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    color: #444;
+}
+
+/* Sticky navigation bar */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1000;
+}
+
+/* Layout and container styling */
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+p, label {
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Image with caption */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 15px;
+}
+
+/* Form layout using Flexbox */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Two-column layout for main content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Three-column layout with Flexbox */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+
+.column.main {
+    flex: 2;
+}
+
+/* ID, class, and attribute selectors */
+#newsletter-signup {
+    background-color: #e7e7e7;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.highlight {
+    background-color: #ffeb3b;
+}
+
+input[type="email"] {
+    border-color: #333;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+}
 
