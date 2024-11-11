@@ -1,3 +1,4 @@
+
 /* General styling for all pages */
 body {
     font-family: Arial, sans-serif;
@@ -46,6 +47,8 @@ nav {
 /* Layout and container styling */
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 article {
@@ -94,14 +97,28 @@ input, select, textarea, button {
     border-radius: 5px;
 }
 
-/* Two-column layout for main content */
-main {
+/* Two-column layout for articles */
+article {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 20px;
 }
 
-/* Three-column layout with Flexbox */
+/* Multi-column form layout using Flexbox */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+input, select, textarea {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Three-column layout with a large middle column */
 .container {
     display: flex;
     flex-direction: row;
@@ -137,4 +154,3 @@ input[type="email"] {
 footer {
     margin-top: 20px;
 }
-
